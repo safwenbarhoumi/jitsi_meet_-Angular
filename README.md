@@ -1,4 +1,3 @@
-cat <<EOL > README.md
 # Angular Jitsi Meet Integration
 
 This project provides Angular wrappers for select Jitsi Meet modules, such as \`xmpp\` and \`RTC\`. These wrappers are CommonJS modules that integrate Jitsi Meet functionalities into Angular applications using browserify.
@@ -22,7 +21,7 @@ npm install -g @angular/cli
 Clone this project from GitHub:
 ```bash
 git clone https://github.com/pstros/angular-jitsi-meet.git
-cd angular-jitsi-meet
+cd jitsi_meet_-Angular
 ```
 
 ### 3. Install Dependencies
@@ -54,6 +53,6 @@ ng build --prod
 ```
 
 ### 7. Utilize Jitsi Modules
-Inject the desired Jitsi modules (e.g., \`xmpp\`, \`RTC\`, \`settings\`, \`statistics\`, \`connectionquality\`, \`desktopsharing\`, or \`jitsiApp\`) into your Angular components as needed.
+Inject the desired Jitsi modules (e.g., `xmpp`, `RTC`, `settings`, `statistics`, `connectionquality`, `desktopsharing`, or `jitsiApp`) into your Angular components as needed.
 
 For more details and updates, visit the project's [GitHub repository](https://github.com/pstros/angular-jitsi-meet).
